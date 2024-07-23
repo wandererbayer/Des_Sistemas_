@@ -26,28 +26,75 @@
 
                 <input type="number" id="n2" placeholder="Número 2:">
 
-                <button onclick="somar()">Calcular</button>
+                <button onclick="somar()">Calcular</button><br>
+
+                <p id="respSoma"></p><br>
 
             </section>
 
             <section>
                 <h2>Subtração</h2>
+
+                <input type="number" id="n1_sub" placeholder="Número 1:">
+
+                <input type="number" id="n2_sub" placeholder="Número 2:">
+
+                <button onclick="subt()">Calcular</button><br>
+
+                <p id="respSub"></p><br>
+
             </section>
 
             <section>
                 <h2>Divisão</h2>
+
+                <input type="number" id="n1_div" placeholder="Número 1:">
+
+                <input type="number" id="n2_div" placeholder="Número 2:">
+
+                <button onclick="divi()">Calcular</button><br>
+
+                <p id="respDiv"></p><br>
+
             </section>
 
             <section>
                 <h2>Multiplicação</h2>
+
+                <input type="number" id="n1_mult" placeholder="Número 1:">
+
+                <input type="number" id="n2_mult" placeholder="Número 2:">
+
+                <button onclick="mult()">Calcular</button><br>
+
+                <p id="respMult"></p><br>
+
             </section>
 
             <section>
                 <h2>Média</h2>
+
+                <input type="number" id="n1_med" placeholder="Primeira Nota">
+
+                <input type="number" id="n2_med" placeholder="Segunda Nota">
+
+                <input type="number" id="n3_med" placeholder="Terceira Nota">
+
+                <button onclick="med()">Calcular</button><br>
+
+                <p>Média: <span id="respMed"></span></p><br>
+
             </section>
 
             <section>
                 <h2>Iteração (for)</h2>
+
+                <input type="number" id="numeroInput" placeholder="Número:">
+
+                <button onclick="ite()">Calcular</button>
+
+                <p id="result"></p><br>
+
             </section>
 
         </main>
@@ -55,5 +102,6 @@
     </body>
 
     <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
 
 </html>
