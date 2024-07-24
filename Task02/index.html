@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Task02</title>
+
+    </head>
+
+    <body>
+
+        <h1>Reaproveitamento de função</h1>
+
+        <main>
+
+            <section>
+                <h2>Soma</h2>
+
+                <input type="number" id="n1" placeholder="Número 1:">
+
+                <input type="number" id="n2" placeholder="Número 2:">
+
+                <button onclick="calc('n1', 'n2', 'respSoma', '+')">Calcular</button><br>
+
+                <p id="respSoma"></p><br>
+
+            </section>
+
+            <section>
+                <h2>Subtração</h2>
+
+                <input type="number" id="n1_sub" placeholder="Número 1:">
+
+                <input type="number" id="n2_sub" placeholder="Número 2:">
+
+                <button onclick="calc('n1_sub', 'n2_sub', 'respSub', '-')">Calcular</button><br>
+
+                <p id="respSub"></p><br>
+
+            </section>
+
+            <section>
+                <h2>Multiplicação</h2>
+
+                <input type="number" id="n1_mult" placeholder="Número 1:">
+
+                <input type="number" id="n2_mult" placeholder="Número 2:">
+
+                <button onclick="calc('n1_mult', 'n2_mult', 'respMult', '*')">Calcular</button><br>
+
+                <p id="respMult"></p><br>
+
+            </section>
+
+            <section>
+                <h2>Divisão</h2>
+
+                <input type="number" id="n1_div" placeholder="Número 1:">
+
+                <input type="number" id="n2_div" placeholder="Número 2:">
+
+                <button onclick="calc('n1_div', 'n2_div', 'respDiv', '/')">Calcular</button><br>
+
+                <p id="respDiv"></p><br>
+
+            </section>
+
+        </main>
+
+    </body>
+
+    <script src="script.js"></script>
+
+</html>
