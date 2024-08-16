@@ -1,0 +1,30 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.light
+{
+    background-color: black;
+}
+
+html
+{
+    background-color: white;
+}
+
+body
+{
+    background-color: transparent !important;
+    padding: 20px;
+    color: black !important;
+}
+
+.lightBody
+{
+    background-color: transparent !important;
+    padding: 20px;
+    color: grey !important;
+}
