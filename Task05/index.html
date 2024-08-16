@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Age Checker</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+
+        <style>
+            *
+            {
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+                font-family: "New Amsterdam", sans-serif;
+            }
+
+            body
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding-top: 4vh;
+            }
+
+            .resp
+            {
+                border: 2px dashed black;
+                padding: 20px;
+            }
+
+            input,
+            button
+            {
+                padding: 10px 30px;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1>Age Checker</h1><br>
+
+        <input type="number" id="clientBirth" placeholder="Insert the year"><br><br>
+
+        <button onclick="checkMajority()">Verify</button><br><br><br>
+
+        <div class="resp">
+            <p id="result"></p>
+            <p id="clientAge"></p>
+        </div>
+
+    </body>
+
+    <script src="script.js"></script>
+
+</html>
